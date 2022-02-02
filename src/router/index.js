@@ -2,6 +2,8 @@ import { createWebHistory, createRouter } from "vue-router"
 import Products from "../components/Products.vue"
 import ProductDetails from "../components/ProductDetails.vue"
 import CreateProduct from "../components/CreateProduct.vue"
+import UpdateProduct from "../components/UpdateProduct.vue"
+
 const routes = [
   {
     path: "/",
@@ -20,6 +22,13 @@ const routes = [
     component: CreateProduct,
     props: true,
   },
+  {
+    path: "/update/",
+    name: "UpdateProduct",
+    component: UpdateProduct,
+    props: true,
+  },
+
 ]
 
 const router = createRouter({
