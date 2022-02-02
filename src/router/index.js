@@ -11,7 +11,7 @@ const routes = [
     component: Products,
   },
   {
-    path: "/product/",
+    path: "/product/:id",
     name: "ProductDetails",
     component: ProductDetails,
     props: true,
@@ -23,7 +23,7 @@ const routes = [
     props: true,
   },
   {
-    path: "/update/",
+    path: "/update/:id",
     name: "UpdateProduct",
     component: UpdateProduct,
     props: true,

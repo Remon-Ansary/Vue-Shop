@@ -43,8 +43,9 @@ export default {
     deleteProduct() {
       let uri = "https://fakestoreapi.com/products/" + this.$route.params.id
       axios.delete(uri).then((response) => {
-        this.$router.push({ name: "ProductDetails" })
-     alert("Product deleted")
+        //  this.$router.push({ name: "ProductDetails" })
+      //  this.singleProduct.splice()
+        alert("Product deleted")
         console.log(response.data)
       })
     },
