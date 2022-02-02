@@ -1,7 +1,8 @@
 <template>
   <div>
-    <router-link to="/">Products</router-link>
-    <router-link to="/product">Products</router-link>
+    <router-link to="/">Products </router-link>
+    <router-link to="/product">Product Details</router-link>
+    <router-link to="/create">Add Product</router-link>
   </div>
   <router-view />
 </template>
